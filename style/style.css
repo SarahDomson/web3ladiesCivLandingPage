@@ -66,7 +66,7 @@ body{
     color: #15295f;
     font-size: 75px;
     font-weight: 700;
-    margin-top: -30px;
+    margin-top: -45px;
     margin-bottom: -15px;
     line-height: 1.3;
 }
@@ -82,5 +82,53 @@ body{
 .hero >p{
         color: #6f6b80;
         font-size: 16px;
-        width: 50px;
+        width: 450px;
+        margin-bottom: 50px;
+}
+
+.hero-button {
+        display: flex;
+        gap: 40px;
+}
+
+.CV {
+        color: white;
+        background-color: orangered;
+        font-size: 18px;  
+        font-family: arial;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+        /* margin-top: ; */
+}
+
+.CV:hover{
+        color: orangered;
+        background-color: white;
+        border: 2px solid orangered;
+        transition: 0.2s;
+        /* border-color: orangered; */
+}
+
+.contact {
+        color: orangered;
+        background-color: #f1f1f1;
+        font-size: 18px;  
+        font-family: arial;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+        /* margin-top: ; */
+}
+
+.contact:hover{
+        color: white;
+        background-color: orangered;
+        border: 2px solid orangered;
+        transition: ease-in;
+        /* border-color: orangered; */
 }
