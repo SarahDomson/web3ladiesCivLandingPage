@@ -180,3 +180,7 @@ p {
         color: #fd6e0a;
 }
 
+.design {
+        display: flex;
+}
+
