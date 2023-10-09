@@ -215,13 +215,39 @@ p {
         display: flex;
 }
 
+.img {
+        transition: 1s ease;
+}
+
+.img:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         transform: scale(1.2);
+         transition: 1s ease;
+}
+
 .date {
        
        
 }
 
-.grid-1 {
-        
+.blog-text {
+        text-decoration: none;
+        color: #fd6e0a;
+        padding: 10px 0 5px;
+        font-size: 18px;
+        display: inline-block;
+}  
+
+.bt {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        color: #ffffff;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        text-decoration: none;
 }
 
 .contact-section {
