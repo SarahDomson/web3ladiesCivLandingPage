@@ -184,14 +184,69 @@ p {
         display: flex;
 }
 
+.blog {
+        background-color: #1f1d2b;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: auto;
+}
 
+.header {
+        text-align: center;
+}
+
+.header > p {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #fd6e0a;
+        margin-bottom: 10px;
+}
+
+.header > h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.5;
+        color: #ffffff
+}
+
+.grid {
+        display: flex;
+}
+
+.date {
+       
+       
+}
+
+.grid-1 {
+        
+}
+
+.contact-section {
+        display: flex;
+        padding: 220px;
+        margin-bottom: -180px;
+}
 
 .contact-info >p{
         color: #6f6b80;
         font-size: 16px;
-        width: 270px;
+        width: 460px;
 }
 
+.social_media {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 20px;
+        list-style: none;
+}
+
+.link {
+        color: black;
+}
 
 input[type="text"] {
         font-size: 16px;
@@ -202,6 +257,10 @@ input[type="text"] {
         background-color: #ffffff;
         border: 2px solid #eeeeee; 
         /* height: 20px; */
+}
+
+.form {
+        margin-left: 300px;
 }
 
 .form > textarea{
