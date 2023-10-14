@@ -166,6 +166,47 @@ body{
         padding-left: 30px;
 }
 
+.service-section {
+       
+}
+
+.range h4 {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #fd6e0a;
+}
+
+.column {
+        border: 1px solid whitesmoke;
+        width: 300px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.04);
+}
+
+.range h2 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1.5;
+        width: 250px;
+        color: #15295f;
+}
+
+.column h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        color: #15295f;
+        margin: 20px 0 15px;
+}
+
+.column p {
+        color: #6f6b80;
+        font-size: 16px;
+        width: 200px;
+}
+
 h3 {
         font-weight: 700;
         font-size: 24px;
@@ -192,6 +233,7 @@ p {
 .port {
         font-weight: 500;
         font-size: 22px;
+        align-items: center;
         line-height: 1.5;
         color: #fd6e0a;
         margin-bottom: -20px;
@@ -315,7 +357,6 @@ p {
 
 .profile-section {
         display: flex;
-        gap: 5px;
         padding-left: 300px;
         width: 300px;
 }
@@ -374,23 +415,23 @@ p {
         margin-right: auto;
 }
 
-.header {
-        text-align: center;
-}
+
 
 .header > p {
         font-weight: 500;
         font-size: 22px;
+        text-align: center;
         line-height: 1.5;
         color: #fd6e0a;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
 }
 
 .header > h2 {
+        text-align: center;
         font-weight: 700;
         font-size: 30px;
         line-height: 1.5;
-        color: #ffffff
+        color: #ffffff;
 }
 
 .grid {
@@ -399,13 +440,6 @@ p {
 
 .img {
         transition: 1s ease;
-}
-
-.date p {
-         color: white;
-         border: 1px solid black;
-         background-color: #1f1d2b;
-         float: right;
 }
 
 .blog-text {
@@ -455,17 +489,24 @@ p {
         color: black;
 }
 
-input[type="text"] {
-        font-size: 16px;
-        margin-top: 25px;
-        padding: 15px 30px;
-        width: 500px;
-        display: block;
-        background-color: #ffffff;
-        border: 2px solid #eeeeee; 
-        /* height: 20px; */
+input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+      }
+
+input[type=text]:focus {
+        border: 3px solid #fd6e0a;
 }
 
+.textarea:focus {
+        border: 3px solid #fd6e0a;
+}
 .form {
         margin-left: 300px;
 }
