@@ -369,7 +369,6 @@ p {
         font-size: 16px;
         line-height: 22px;
         color: #15295f;
-        gap: 320px;
  }
 
  .progress_bar4 {
@@ -426,6 +425,7 @@ p {
         background-color: #fd6e0a;
         border-radius: 10px;
 }
+
 .design {
         display: flex;
 }
